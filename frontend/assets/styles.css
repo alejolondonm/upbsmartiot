@@ -1,0 +1,75 @@
+.app-container {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tabs-container {
+    margin: 5px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.tab-content {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.plant-info-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.plant-info-image {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.plant-image-column {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.collapsible-column {
+    flex: 2;
+}
+
+.collapsible-summary {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+.collapsible-content {
+    padding: 15px;
+}
+
+.collapsible-section {
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.two-column-layout {
+    display: flex;
+    flex-direction: row;
+}
+
+.plant-info-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}

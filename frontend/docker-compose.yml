@@ -1,0 +1,22 @@
+services:
+  frontend:
+    container_name: frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8050:8050"
+    environment:
+      POSTGRES_HOST: postgres_db  # Nombre del servicio de PostgreSQL en Docker Compose
+      POSTGRES_PORT: 5432
+      POSTGRES_USER: alejo
+      POSTGRES_PASSWORD: 1989
+      POSTGRES_DB: iot_db
+    volumes:
+      - .:/app
+    networks:
+      - middleware_middleware-network
+
+networks:
+  middleware_middleware-network:
+    external: true
